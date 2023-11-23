@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100% 100% 100% 100% 100% 100%;
+    grid-template-rows:40px 60px 100px 500px 200px 70px;
+}
+.upper{
+    border: none;
+    background-color: black;
+    color: white;
+}
+.head{
+    background-color: lightgray;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+      
+.main{
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 110px;
+}
+.main button{
+    width: 190px;
+    height: 60px;
+    background-color:rgb(3, 134, 3);
+    color: white;
+}
+.location img{
+    width: 20px;
+}
+.number img{
+    width: 20px;    
+}
+.number{
+ gap: 8px;
+}
+.oper img{
+    width: 20px;
+}
+.oper{
+    gap:8px;
+    display: flex;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.number{
+    display: flex;
+    flex-direction:row;
+}
+.location{
+    display: flex;
+    flex-direction:row;
+}
+.container1{
+    background-color: lightgrey;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.company{
+    font-family: papyrus;
+    font-size: xx-large;
+}
+.about{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 40px;
+font-size:small;
+font-family:Franklin Gothic Medium;
+
+}
+
+.content{
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.foot{
+    background-color: lightgrey;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Constantia;
+
+}
+.content img{
+    width: 400px;
+    opacity: 0.2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top: 70px;
+    
+}
+
+.picture{
+    color: white;
+    display: flex;
+    opacity:0.2 ;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 140px;
+}
+.creative{
+    color: white;
+    display: flex;
+    font-family: Tahoma;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+.more{
+    width: 140px;
+    height: 30px;
+    background-color:rgb(3, 134, 3);
+    color: white;
+    
+}
+.you{
+    background-color:lightslategray;
+    width: 140px;
+    height: 30px;
+    color: white;
+    
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 150px;
+}
+
+.read{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.end{
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    color: white;
+}
+.vector{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: Calibri Light;
+    margin-left: 20px;
+}
+.stock{
+    display: flex;
+    float: right;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.stock1{
+    float: left;
+    margin-top: 8px;
+    font-size: 44px;
+    font-family: Calibri ;
+}
+.end i{
+    margin-top: 20px;
+}
